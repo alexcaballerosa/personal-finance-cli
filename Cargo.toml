@@ -1,8 +1,11 @@
 [package]
 name = "personal-finance-cli"
 version = "0.1.0"
+authors = ["Alex Caballero"]
 edition = "2021"
+description = "CLI app for personal finance written in Rust."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "4.0.32", features = ["derive"] }

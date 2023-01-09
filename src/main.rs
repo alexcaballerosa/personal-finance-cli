@@ -1,3 +1,5 @@
+use personal_finance_cli::cli::init_cli;
+
 fn main() {
-    println!("Hello, world!");
+    init_cli();
 }
