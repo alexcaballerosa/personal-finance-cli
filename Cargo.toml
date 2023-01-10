@@ -9,3 +9,4 @@ description = "CLI app for personal finance written in Rust."
 
 [dependencies]
 clap = { version = "4.0.32", features = ["derive"] }
+time = { version = "0.3.17", features = ["parsing", "local-offset"] }
